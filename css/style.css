@@ -307,6 +307,8 @@ font-size: 50px;
 	transition:  0.5s;
 	color: black;
 	border: 2px solid #00987b;
+	width: 180px;
+	height:60px;
 }
 .price_footer button:hover {
 	color:white;
@@ -322,3 +324,70 @@ font-size: 50px;
 
 }
 
+.team {
+	text-align: center;
+	padding-top: 165px;
+	padding-bottom: 125px;
+	color: black;
+	background-color: white;
+}
+
+.team h4 {
+	font-size: 20px;
+	margin-top: 30px;
+
+}
+
+.team p {
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+
+}
+.icons a i {
+	transition: 0.3s;
+}
+.icons i:nth-child(1) {
+	color: #f0f1f1;
+}
+.icons i:nth-child(2) {
+	color: #00897b;
+}
+
+.icons a:hover i:nth-child(1) {
+	color: #3949ab;
+
+}
+.icons a:hover i:nth-child(2) {
+	color: #fff;
+}
+
+.team img {
+	margin: 0 auto;
+	max-width: 340px;
+}
+.multiple-items{
+	margin-top: 125px;
+}
+
+.dots-style{
+	margin-top: 115px;
+	display: flex;
+	justify-content: center;
+}
+.dots-style button {
+	background: #00897b;
+	border:none;
+	border-radius: 50%;
+	font-size: 0;
+	height: 15px;
+	width: 15px;
+	margin: 5px;
+}
+.dots-style li[class="slick-active"] button {
+	background: #3949ab;
+}
